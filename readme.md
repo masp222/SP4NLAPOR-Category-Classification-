@@ -115,38 +115,7 @@ The classifier uses an **LSTM-based model**:
 
 ---
 
-## 🏗️ Repository Structure
-
-```
-├── data/                # Dataset (not included publicly)
-├── notebooks/           # Jupyter notebooks for EDA & experiments
-├── embeddings/          # Scripts for generating embeddings
-├── models/              # Trained models and checkpoints
-├── utils/               # Preprocessing & helper functions
-├── train.py             # Model training pipeline
-├── evaluate.py          # Evaluation script
-└── README.md            # Project documentation
-```
-
----
-
-## 🛠️ Installation
-
-```bash
-git clone https://github.com/username/lapor-classification.git
-cd lapor-classification
-
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Training the Model
-
-```bash
-python train.py --embedding e5 --epochs 50
-```
-
 ## 🙌 Acknowledgements
 
 This project is based on the paper **"Klasifikasi Otomatis Laporan Masyarakat pada Platform LAPOR!"** submitted to GEMASTIK 2025.
+
