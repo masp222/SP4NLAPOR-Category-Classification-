@@ -147,37 +147,6 @@ pip install -r requirements.txt
 python train.py --embedding e5 --epochs 50
 ```
 
-Options: `e5`, `qwen3`, `fasttext`, `indobert`, `cendolt5`
-
----
-
-## 🧪 Evaluating the Model
-
-```bash
-python evaluate.py --model checkpoints/model_e5.pth
-```
-
----
-
-## 📌 Future Work
-
-* Try RAG or hybrid embeddings
-* Incorporate metadata (region, timestamp)
-* Improve minority-class performance with contrastive learning
-* Deploy as a FastAPI prediction endpoint
-
----
-
 ## 🙌 Acknowledgements
 
 This project is based on the paper **"Klasifikasi Otomatis Laporan Masyarakat pada Platform LAPOR!"** submitted to GEMASTIK 2025.
-
-
----
-
-If you'd like, I can also generate:
-
-✅ a **more formal** academic-style README
-✅ a **code template** matching the paper
-✅ diagrams (PNG) for architecture & workflow
-Just tell me!
